@@ -1,0 +1,73 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #111827; /* Dark Background */
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Code Editor */
+#editor {
+    height: 320px;
+    border-radius: 8px;
+    background-color: #1E1E1E; /* Dark editor background */
+    color: white;
+    padding: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Buttons */
+button {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+/* Button Styles */
+#generate-btn {
+    background-color: #3B82F6; /* Blue */
+    color: white;
+}
+
+#run-btn {
+    background-color: #22C55E; /* Green */
+    color: white;
+}
+
+#debug-btn {
+    background-color: #EAB308; /* Yellow */
+    color: white;
+}
+
+/* Hover Effects */
+button:hover {
+    filter: brightness(1.2);
+    transform: scale(1.05);
+}
+
+/* Active/Click Effect */
+button:active {
+    transform: scale(0.95);
+}
+
+/* Output Console */
+#output {
+    background-color: #1E293B; /* Dark Console */
+    color: #10B981; /* Green text */
+    padding: 10px;
+    border-radius: 6px;
+    font-family: 'Courier New', monospace;
+    white-space: pre-wrap;
+}
